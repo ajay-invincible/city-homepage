@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(/images/pilibhit-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+
+.banner-text {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.heading {
+    background-color: #003566;
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.sub-text {
+    background-color: #48cae4;
+    font-size: 1.5rem;
+    max-width: 400px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    text-shadow: 0 0 2px black;
+}
+
+.section-2 {
+    background-color: #caf0f8;
+    padding: 20px 10px;
+}
+
+.sub-heading {
+    padding: 10px;
+}
+
+.activity-img {
+    max-width: 150px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.activity-img > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-1 {
+    padding: 10px;
+}
+
+.activity-name {
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+.activity-detail {
+    max-width: 200px;
+}
+
+.section-3 {
+    padding: 50px 20px;
+}
+
+.card-2 {
+    max-width: 400px;
+    margin: auto;
+    background-color: #48cae4;
+    border-bottom: 7px solid #003566;
+    border-radius: 10px;
+    display: flex;
+}
+
+.card-img {
+    padding: 20px 10px;    
+    flex: 1 1 50%;
+}
+
+.card-img > img {
+    max-width: 90%;
+    background: linear-gradient(#caf0f8, #eef4ed);
+    border-radius: 7px;    
+    box-shadow: 2px 2px 3px #003566;
+}
+
+.card-text {
+    padding: 20px 10px;
+    color: #003566;
+    text-shadow: 0 0 1px white;    
+    flex: 1 1 50%;
+}
+
+.card-author {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+@media all and (max-width: 400px) {
+    .card-2 {        
+        flex-wrap: wrap;
+    }
+
+    .card-2 > div {        
+        flex: 1 1 100%;
+    }
+}
