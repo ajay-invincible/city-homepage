@@ -79,6 +79,7 @@ body {
 
 .activity-detail {
     max-width: 200px;
+    max-height: 200px;
     font-size: 1rem !important;
 }
 
@@ -88,6 +89,7 @@ body {
 
 .card-2 {
     max-width: 400px;
+    max-height: 300px;
     margin: auto;
     background-color: #48cae4;
     border-bottom: 7px solid #003566;
